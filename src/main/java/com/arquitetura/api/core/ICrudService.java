@@ -8,5 +8,4 @@ public interface ICrudService<T> {
     public T save(T obj);
     public T update(T obj);
     public boolean delete(long id);
-    public boolean exist(long id);
 }

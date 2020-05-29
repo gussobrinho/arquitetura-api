@@ -38,9 +38,4 @@ public class CrudService<T> implements ICrudService<T> {
         }
         return false;
     }
-
-    @Override
-    public boolean exist(long id) {
-        return repository.existsById(id);
-    }
 }
